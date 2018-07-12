@@ -1,6 +1,6 @@
 from django.db import models
 class Student(models.Model):
-    name=models.CharField(max_length=30)
+    name=models.CharField(max_length=20)
     id=models.IntegerField(primary_key=True)
     email=models.EmailField()
 class Course(models.Model):
